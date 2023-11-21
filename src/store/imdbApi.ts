@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery, skipToken } from '@reduxjs/toolkit/query/react';
 
-const OMDB_API_KEY = process.env.OMDB_API_KEY || '64405bd2';
+const OMDB_API_KEY = process.env.OMDB_API_KEY;
 
 export interface IOMDBMovie {
   Title: string;
